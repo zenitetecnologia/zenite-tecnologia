@@ -1,34 +1,32 @@
-import React from 'react';
-
 const PrivacyPolicy = () => {
   return (
-    <div 
-      style={{ 
+    <div
+      style={{
         backgroundColor: 'var(--zf-background-secondary)',
-        position: 'absolute', 
+        position: 'absolute',
         top: 0,
         left: 0,
         right: 0,
         bottom: 0,
         overflowX: 'hidden',
-        overflowY: 'auto' 
+        overflowY: 'auto'
       }}
     >
-      <div 
-        style={{ 
-          width: '100%', 
-          maxWidth: '75%', 
-          minWidth: '25%', 
-          margin: '0 auto', 
+      <div
+        style={{
+          width: '100%',
+          maxWidth: '75%',
+          minWidth: '25%',
+          margin: '0 auto',
           padding: '3rem 4rem',
           textAlign: 'left',
-          minHeight: '100%', 
-          borderLeft: '4px solid rgba(0, 0, 0, 0.1)', 
+          minHeight: '100%',
+          borderLeft: '4px solid rgba(0, 0, 0, 0.1)',
           borderRight: '4px solid rgba(0, 0, 0, 0.1)',
         }}
       >
         <h1 className="page-title text-center mb-3">Política de Privacidade</h1>
-        
+
         <section className="mb-2">
           <h2>1. Introdução e Adequação à LGPD</h2>
           <p>
@@ -81,8 +79,8 @@ const PrivacyPolicy = () => {
                 <li><strong>Razão Social:</strong> Zênite Tecnologia LTDA</li>
                 <li><strong>CNPJ:</strong> 60.935.686/0001-34</li>
                 <li><strong>E-mail:</strong> douglas.castro@zenitetecnologia.com</li>
-                <li><strong>Telefone:</strong> (37) 99965-4512</li>
-                <li><strong>Endereço Sede:</strong> R Nove, 120, Fundos, Buritis, Moema - MG, CEP 35.604-000</li>
+                <li><strong>Telefone:</strong> (37) 9 9965 4512</li>
+                <li><strong>Endereço Sede:</strong> Rua Geraldo Magela Ferreira, 120, Buritis, Moema/MG, 35604-000</li>
             </ul>
           </div>
         </section>

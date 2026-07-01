@@ -1,17 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
-      </Routes>
-    </Router>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
