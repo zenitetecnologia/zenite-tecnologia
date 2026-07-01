@@ -1,4 +1,3 @@
-
 const PrivacyPolicy = () => {
   return (
     <div
