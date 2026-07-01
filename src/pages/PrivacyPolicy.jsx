@@ -76,13 +76,13 @@ const PrivacyPolicy = () => {
           <p>
             Se você tiver dúvidas, solicitações ou desejar exercer seus direitos em relação aos seus dados pessoais, entre em contato conosco pelos canais abaixo:
           </p>
-          <div className="notice" style={{ marginTop: '1rem' }}>
+          <div className="notice" style={{ marginTop: '1rem', color: 'var(--zf-accent)' }}>
             <ul style={{ listStyleType: 'none', padding: 0 }}>
-                <li><strong>Razão Social:</strong> ZENITE TECNOLOGIA LTDA</li>
+                <li><strong>Razão Social:</strong> Zênite Tecnologia LTDA</li>
                 <li><strong>CNPJ:</strong> 60.935.686/0001-34</li>
-                <li><strong>E-mail:</strong> DOUGLAS.CASTRO@ZENITETECNOLOGIA.COM</li>
-                <li><strong>Telefone:</strong> (37) 9965-4512</li>
-                <li><strong>Endereço Sede:</strong> R NOVE, 120, FUNDOS, BURITIS, MOEMA - MG, CEP 35.604-000</li>
+                <li><strong>E-mail:</strong> douglas.castro@zenitetecnologia.com</li>
+                <li><strong>Telefone:</strong> (37) 99965-4512</li>
+                <li><strong>Endereço Sede:</strong> R Nove, 120, Fundos, Buritis, Moema - MG, CEP 35.604-000</li>
             </ul>
           </div>
         </section>
