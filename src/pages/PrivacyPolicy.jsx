@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
           <p>
             Se você tiver dúvidas, solicitações ou desejar exercer seus direitos em relação aos seus dados pessoais, entre em contato conosco pelos canais abaixo:
           </p>
-          <div className="notice" style={{ marginTop: '1rem', color: 'var(--zf-accent)' }}>
+          <div className="notice" style={{ marginTop: '1rem', color: '#D4AF37' }}>
             <ul style={{ listStyleType: 'none', padding: 0 }}>
                 <li><strong>Razão Social:</strong> Zênite Tecnologia LTDA</li>
                 <li><strong>CNPJ:</strong> 60.935.686/0001-34</li>
